@@ -19,17 +19,17 @@ Second argument – TCP Port. (Just a number representing which application to r
 1. run  `cd bin`
 2. open two terminal windows.  
 3. run `java Server` for the first window.  
-Server window  
+Server window:  
 ```
 Server started
 Waiting for a client ...
 ```
 4. run `java Client` for the first window.  
-Client window  
+Client window:  
 ```
 Connected
 ```
-Server window
+Server window:
 ```
 Client accepted
 ```
