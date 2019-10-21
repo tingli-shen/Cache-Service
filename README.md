@@ -37,6 +37,6 @@ Client accepted
 
 ## Methods
 **set(key, value)**  
-Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
+Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.  
 **get(key)**  
 Get the value (will always be positive) of the key if the key exists in the cache, otherwise return message about why the key dose not exist.
