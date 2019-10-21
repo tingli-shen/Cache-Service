@@ -30,7 +30,7 @@ Client window:
 ```
 Connected
 ```
-&nbsp Server window:
+&nbsp; Server window:
 ```
 Client accepted
 ```
