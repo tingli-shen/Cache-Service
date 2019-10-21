@@ -11,7 +11,8 @@ First argument – IP address of Server. ( 127.0.0.1  is the IP address of local
 Second argument – TCP Port. (Just a number representing which application to run on a server. For example, HTTP runs on port 80. Port number can be from 0 to 65535)
 
 ## How to run
-***Compile***  
+***Compile***
+
 `javac -d ./bin/ *.java`  
 
 ***Run***
