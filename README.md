@@ -9,3 +9,7 @@ To connect to other machine we need a socket connection. A socket connection mea
 
 First argument – IP address of Server. ( 127.0.0.1  is the IP address of localhost, where code will run on single stand-alone machine).  
 Second argument – TCP Port. (Just a number representing which application to run on a server. For example, HTTP runs on port 80. Port number can be from 0 to 65535)
+
+## How to run
+*compile*
+`javac -d ./bin/ *.java`
