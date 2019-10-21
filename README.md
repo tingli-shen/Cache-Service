@@ -2,6 +2,7 @@
 This project implements cache service by sucket programming in Java.  
 The server provdie two cache service([LRU cache](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)) and [LFU Cache](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least-frequently_used_(LFU)))
 for the client to use.  
+The service uses [fatoy pattern](https://en.wikipedia.org/wiki/Factory_method_pattern) to create object.
 ## Connection
 To connect to other machine we need a socket connection. A socket connection means the two machines have information about each other’s network location (IP Address) and TCP port.  
 
