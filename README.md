@@ -25,12 +25,12 @@ Server window:
 Server started
 Waiting for a client ...
 ```
-4. run `java Client` for the first window.  
+4. run `java Client` for the second window.  
 Client window:  
 ```
 Connected
 ```
-&emsp; Server window:
+&nbsp; &emsp; Server window:
 ```
 Client accepted
 ```
@@ -40,3 +40,32 @@ Client accepted
 Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.  
 * **get(key)**  
 Get the value (will always be positive) of the key if the key exists in the cache, otherwise return message about why the key dose not exist.
+
+## Program example
+```
+Wellcome to Cache Service
+Least Frequently Used Cache: 1
+Least Recently Used Cache: 2
+Please select your Cache Service(1 or 2):1
+Please set up the capacity:
+3
+LFUCache is set up
+set(2,20)
+data stored
+set(1,11)
+data stored
+get(2)
+Key: 2 has Value: 20 in the cache
+get(1)
+Key: 1 has Value: 11 in the cache
+get(2)
+Key: 2 has Value: 20 in the cache
+set(3,8)
+data stored
+set(4,6)
+data stored
+get(1)
+Key: 1 has Value: 11 in the cache
+get(3)
+Sorry. That data with Key: 3 has been evicted by LFUCache policy because the cache was full.
+```
