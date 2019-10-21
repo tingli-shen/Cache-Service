@@ -4,6 +4,7 @@ The server provdie two cache service([LRU cache](https://en.wikipedia.org/wiki/C
 for the client to use.  
 ## Connection
 To connect to other machine we need a socket connection. A socket connection means the two machines have information about each other’s network location (IP Address) and TCP port.  
+
 `Socket socket = new Socket(“127.0.0.1”, 5000)`
 
 First argument – IP address of Server. ( 127.0.0.1  is the IP address of localhost, where code will run on single stand-alone machine).  
