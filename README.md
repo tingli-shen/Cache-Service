@@ -11,5 +11,23 @@ First argument – IP address of Server. ( 127.0.0.1  is the IP address of local
 Second argument – TCP Port. (Just a number representing which application to run on a server. For example, HTTP runs on port 80. Port number can be from 0 to 65535)
 
 ## How to run
-***compile***  
+***Compile***  
 `javac -d ./bin/ *.java`
+***Run***  
+in bin folder with class files.
+1. open two terminal windows.
+2. `java Server` for the first window.
+Server window  
+```
+Server started
+Waiting for a client ...
+```
+3. `java Client` for the first window.
+Client window  
+```
+Connected
+```
+Server window
+```
+Client accepted
+```
