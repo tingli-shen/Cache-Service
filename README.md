@@ -12,17 +12,17 @@ Second argument – TCP Port. (Just a number representing which application to r
 
 ## How to run
 ***Compile***  
-`javac -d ./bin/ *.java` . 
-***Run***  
-in bin folder with class files.  
-1. open two terminal windows.  
-2. `java Server` for the first window.  
+`javac -d ./bin/ *.java`  
+***Run***   
+1. run  `cd bin`
+2. open two terminal windows.  
+3. `java Server` for the first window.  
 Server window  
 ```
 Server started
 Waiting for a client ...
 ```
-3. `java Client` for the first window.  
+4. `java Client` for the first window.  
 Client window  
 ```
 Connected
